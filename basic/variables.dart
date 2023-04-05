@@ -15,6 +15,7 @@ void main(){
 
 
   var init; //null로 초기화됨.
+  int? nullableInt; //nullable할 경우, 변수 타입 뒤에 ?를 붙인다.
   print("init: $init");
   assert(init == null);
 
