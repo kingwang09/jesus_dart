@@ -28,5 +28,9 @@ class Bicycle {
 }
 
 void main(){
+  Bicycle bicycle = Bicycle(5, 10);
+  print("result : $bicycle");
 
+  bicycle.speedUp(100);
+  print("result: $bicycle");
 }
