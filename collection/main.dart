@@ -22,6 +22,7 @@ void main(){
   print("is five over(any): $isFiveOverAny");
 
   //filtering .where()
-
+  Iterable<int> fiveOvers = iterable.where((element) => element > 5);
+  print("five overs: $fiveOvers");
 
 }
