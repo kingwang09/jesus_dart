@@ -8,3 +8,4 @@ dependencies:
   translator: ^0.1.7
 dev_dependencies:
   json_serializable: ^6.6.1
+  build_runner: ^2.3.3
