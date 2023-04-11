@@ -4,6 +4,8 @@ import 'package:http/http.dart' as http;
 
 import 'example.dart';
 
+//api: https://www.googleapis.com/books/v1/volumes?q=%7Bhttp%7D
+//examples: https://github.com/google/json_serializable.dart/tree/master/example
 void main(List<String> arguments) async {
   // This example uses the Google Books API to search for books about http.
   // https://developers.google.com/books/docs/overview
