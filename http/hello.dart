@@ -27,8 +27,10 @@ void post() async{
   var body = convert.jsonEncode({"name": "kingwang09", "message": "hello world!!"});//json으로 convert를 해줘야 정상 인식하는군..
   print("body=$body");
 
+  var headers = {"Content-Type": "application/json"};//header지정 안하면 text/plain으로 인식함.
+
   // Await the http get response, then decode the json-formatted response.
-  var response = await http.post(url, headers: {"Content-Type": "application/json"}, body: body);
+  var response = await http.post(url, headers: headers, body: body);
 
 
   if (response.statusCode == 200) {
