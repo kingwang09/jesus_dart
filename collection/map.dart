@@ -1,5 +1,5 @@
-void main(){
-  Map<String, String> map = Map.of({'이름':"김딱딱", "나이": "unknown"});
+void main() {
+  Map<String, String> map = Map.of({'이름': "김딱딱", "나이": "unknown"});
   List<String> keys = map.keys.toList();
   List<String> values = map.values.toList();
 
