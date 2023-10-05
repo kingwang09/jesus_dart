@@ -23,6 +23,10 @@ void secondArray() {
 void main() {
   //배열과의 첫만남
   //firstArray();
+
+  for(var i in [1,2,3,4,5]){
+    print(i);
+  }
 }
 
 void calculateTotal(List<int> items) {}
